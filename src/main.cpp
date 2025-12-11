@@ -88,6 +88,9 @@ int main() {
                 if (book != nullptr) {
                     std::cout << "\n--- НАЙДЕНА КНИГА ---" << std::endl;
                     book->displayInfo();
+                else {
+                    std::cout << "Пользователь не найден" << std::endl;
+                }
                 } else {
                     std::cout << "Книга не найдена" << std::endl;
                 }
