@@ -25,7 +25,7 @@ int main() {
     #ifdef _WIN32
         system("chcp 65001 > nul");
     #endif
-    Library library("data/library_data.txt");
+    Library library("../data/library_data.txt");
     int choice = 0;
     while (choice != 10) {
         showMenu();
